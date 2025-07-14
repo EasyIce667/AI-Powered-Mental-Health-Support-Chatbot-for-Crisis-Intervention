@@ -114,21 +114,6 @@ Access to timely and empathetic mental health support is limited, particularly i
    ```
    Expected outputs include sentiment-tailored responses and crisis helpline suggestions.
 
-## File Structure
-
-```
-mental-health-chatbot/
-├── chatbot.py              # Main CLI chatbot script
-├── train_models.py        # Script to train/fine-tune models
-├── models/                # Directory for pre-trained models
-│   ├── sentiment_model_improved/
-│   ├── crisis_model/
-│   ├── dialogpt_finetuned/
-├── README.md              # This file
-├── requirements.txt        # Python dependencies
-├── LICENSE                # MIT License
-```
-
 ## Training
 
 To train the models (if not using pre-trained ones):
@@ -189,10 +174,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - Devlin, J., et al. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. *arXiv:1810.04805*.
 - Liu, Y., et al. (2020). A Robustly Optimized BERT Pretraining Approach. *arXiv:1907.11692*.
 
-## Contact
-
-For questions or feedback, contact [Your Name] at [your.email@example.com].
-
----
 
 Made by Hardik
