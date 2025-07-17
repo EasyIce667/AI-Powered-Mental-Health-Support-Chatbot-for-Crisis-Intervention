@@ -154,19 +154,6 @@ To train the models (if not using pre-trained ones):
 - Explore graphical interfaces (e.g., web or mobile apps).
 - Integrate real-time feedback for continuous model improvement.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/YourFeature`).
-3. Commit changes (`git commit -m 'Add YourFeature'`).
-4. Push to the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## References
 
 - Hugging Face. (2025). Transformers Library Documentation. [https://huggingface.co/docs/transformers](https://huggingface.co/docs/transformers)
