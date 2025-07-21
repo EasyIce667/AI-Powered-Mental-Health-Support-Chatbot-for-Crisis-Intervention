@@ -11,7 +11,7 @@ This repository contains the implementation of a command-line interface (CLI)-ba
 
 The project aims to provide accessible mental health support through a lightweight CLI interface, suitable for testing and deployment in resource-constrained environments. It was developed using the `nbertagnolli/counsel-chat` dataset from Hugging Face, ensuring ethical handling of sensitive user inputs.
 
-**Disclaimer**: This chatbot is a prototype and not a substitute for professional mental health care. Always seek help from qualified professionals in crisis situations. The chatbot includes resources like the National Suicide Prevention Lifeline (1-800-273-8255) for crisis cases.
+**Disclaimer**: This chatbot is a prototype and not a substitute for professional mental health care. Always seek help from qualified professionals in crisis situations.
 
 ## Problem Statement
 
