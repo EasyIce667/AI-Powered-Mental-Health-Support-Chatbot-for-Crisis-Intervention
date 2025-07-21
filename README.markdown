@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains the implementation of a command-line interface (CLI)-based AI-powered mental health support chatbot developed as part of a capstone project during an internship at **MindCare Solutions** (April–June 2025). The chatbot leverages natural language processing (NLP) to:
+This repository contains the implementation of a command-line interface (CLI)-based AI-powered mental health support chatbot developed as part of a capstone project. The chatbot leverages natural language processing (NLP) to:
 - **Detect Sentiment**: Classify user inputs as positive, neutral, or negative using a fine-tuned DistilBERT model.
 - **Identify Crises**: Detect potential crisis situations (e.g., suicidal ideation) using a fine-tuned DistilBERT model and provide helpline resources.
 - **Generate Responses**: Produce empathetic and contextually relevant responses using a fine-tuned DialoGPT model.
