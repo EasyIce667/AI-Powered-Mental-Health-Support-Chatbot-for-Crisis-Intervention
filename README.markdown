@@ -41,7 +41,7 @@ Access to timely and empathetic mental health support is limited, particularly i
 
 ### Option 1: Google Colab
 1. Open [Google Colab](https://colab.research.google.com/).
-2. Create a new notebook and copy the contents of `chatbot.py` into a cell.
+2. Create a new notebook and copy the contents of the file given into a cell.
 3. Install dependencies:
    ```bash
    !pip install torch==2.6.0+cu124 transformers==4.53.1 pandas==2.2.2 spacy==3.8.7
@@ -51,14 +51,13 @@ Access to timely and empathetic mental health support is limited, particularly i
    - `sentiment_model_improved`
    - `crisis_model`
    - `dialogpt_finetuned`
-   If missing, train the models using `train_models.py` (see [Training](#training)).
+   If missing, train the models and check for your directory path name.
 5. Run the cell to start the chatbot.
 
 ### Option 2: Local Environment
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mental-health-chatbot.git
-   cd mental-health-chatbot
+   git clone https://github.com/EasyIce667/AI-Powered-Mental-Health-Support-Chatbot-for-Crisis-Intervention.git
    ```
 2. Create a virtual environment:
    ```bash
@@ -70,18 +69,11 @@ Access to timely and empathetic mental health support is limited, particularly i
    pip install torch==2.6.0+cu124 transformers==4.53.1 pandas==2.2.2 spacy==3.8.7
    python -m spacy download en_core_web_sm
    ```
-4. Place pre-trained models in the `models/` directory or train them using `train_models.py`.
-5. Run the chatbot:
-   ```bash
-   python chatbot.py
-   ```
+4. Place pre-trained models in the `models/` directory or train them using mentioned in the file.
 
 ## Usage
 
 1. **Run the Chatbot**:
-   ```bash
-   python chatbot.py
-   ```
    The script will:
    - Run test cases to demonstrate functionality.
    - Start the CLI, prompting for user input.
@@ -94,7 +86,6 @@ Access to timely and empathetic mental health support is limited, particularly i
      Mental Health Support Chatbot
      Share your thoughts or feelings, and I'll try to help. Type 'exit' to quit.
      If you're in crisis, I'll suggest resources.
-     Made by Hardik
 
      Your Message: I'm feeling really down today
      Response: I'm sorry to hear that. I’m here for you. Would you like some coping strategies, like deep breathing or journaling?
@@ -112,7 +103,7 @@ Access to timely and empathetic mental health support is limited, particularly i
        "I’m thinking about ending my life"
    ]
    ```
-   Expected outputs include sentiment-tailored responses and crisis helpline suggestions.
+   Expected outputs include sentiment tailored responses and crisis helpline suggestions.
 
 ## Training
 
@@ -142,11 +133,11 @@ To train the models (if not using pre-trained ones):
 
 ## Ethical Considerations
 
-- The chatbot prioritizes crisis detection to ensure users in distress receive helpline information (e.g., National Suicide Prevention Lifeline at 1-800-273-8255).
+- The chatbot prioritizes crisis detection to ensure users in distress receive helpline information.
 - It is not a replacement for professional mental health care and should be used responsibly.
 - User inputs are processed locally and not stored, ensuring privacy.
 
-## Future Improvements
+## Future Improvements that can be made
 
 - Incorporate larger datasets for improved model robustness.
 - Add multilingual support for broader accessibility.
