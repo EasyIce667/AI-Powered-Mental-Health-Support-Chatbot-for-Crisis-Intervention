@@ -46,7 +46,7 @@ Access to timely and empathetic mental health support is limited, particularly i
    !pip install torch==2.6.0+cu124 transformers==4.53.1 pandas==2.2.2 spacy==3.8.7
    !python -m spacy download en_core_web_sm
    ```
-4. Ensure pre-trained models are available in `/content/`:
+4. Ensure pre-trained models are available in `/content/`, or can be trained manually while running the code:
    - `sentiment_model_improved`
    - `crisis_model`
    - `dialogpt_finetuned`
